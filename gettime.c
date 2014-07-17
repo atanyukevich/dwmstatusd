@@ -11,7 +11,7 @@ char * gettime(void)
 
 	time(&rawtime);
 
-	strftime (buffer, 80, "%A %d %B %Y-%m-%d %X",localtime(&rawtime));
+	strftime(buffer, 80, "%A %d %B %Y-%m-%d %X",localtime(&rawtime));
 	return buffer;
 }
 /******************************************************************************/
